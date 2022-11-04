@@ -1,0 +1,273 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Playfair Display', serif;
+     
+}
+
+.btn{
+     padding: 10px 25px;
+     font-size: xx-small;
+     font-weight: lighter;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+     background-image: url(../images/header.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 30%;
+     color: white;
+     padding: 10%;
+}
+header h1{
+     letter-spacing: 8px;
+     font-weight: lighter;
+     font-size: 50px;
+}
+
+header h3{
+     font-size: small;
+     letter-spacing: 5px;
+}
+
+header > button {
+     background-color: black;
+     color: white;
+}
+
+.title{
+     width: 320px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+nav {
+     display: flex;
+     justify-content: center;
+}
+
+.navContainer {
+     display: flex;
+     align-items: center;
+     font-size: small;
+     height: 60px;
+     padding: 0 20px;
+}
+
+.navContainer > img {
+     flex-basis: 1;
+     height: 35px;
+}
+
+.navContainer > a {
+     flex-basis: 1;
+}
+ul{
+     display: flex;
+     justify-content: space-around;
+     flex-basis: 8;
+}
+
+li {
+     list-style: none;
+     padding: 15px;
+}
+
+.navContainer li img {
+     width: 15px;
+}
+.navContainer a {
+     text-decoration: none;
+     color: black;
+
+}
+
+
+.voucher {
+     background-color: black;
+     padding-top: 15px;
+     margin-top: 60px;
+     width: 180px;
+     line-height: 200%;
+
+}
+
+.voucher span{
+     font-size: 30px;
+     font-weight: bolder;
+}
+
+.voucher p{
+     font-size: x-small;
+     padding-left: 15px;
+}
+
+.voucher p:first-child{
+     border-left: solid 3px;
+}
+
+.uppercase {
+     text-transform: uppercase;
+}
+
+.voucher button {
+     margin-left: 15px;
+     margin-bottom: 15px;
+}
+
+.services {
+     display: flex;
+     justify-content: space-around;
+     margin: 60px;
+     font-size: x-small;
+}
+
+.services img{
+     width: 80px;
+}
+
+.services section{
+     margin: 10px;
+     text-align: center;
+}
+
+.highlight{
+     display: flex;
+     background-color: rgb(244	244	246);
+     padding: 80px;
+     font-size: small;
+}
+.highlight img{
+     width: 200px;
+     margin-left: 40px;
+}
+
+.highlight button{
+     background-color: black;
+     color: white;
+    
+}
+
+
+.hairstylists{
+     display: flex;
+     justify-content: space-around;
+     padding: 50px 100px;
+}
+
+.hairstylists > div{
+     flex-basis: 1;
+}
+
+.hairstylists img{
+     width: 120px;
+     height: 200px;
+     position: absolute;
+}
+
+.stylistInfo{
+     background-color: black;
+     color: white;
+     padding: 5px 25px;
+     font-size: xx-small;
+     font-weight: bolder;
+     position: relative;
+     top: 150px;
+     left: 4px;
+     text-align: center;
+}
+.stylistInfo p + p {
+     font-size: 6px;
+     font-weight: lighter;
+}
+
+.offer{
+     display: flex;
+     background-color: rgb(244	244	246) ;
+     margin: 150px 30px 80px 30px;
+     
+}
+
+.offer div{
+     padding: 30px;
+     width: 50%;
+     line-height: 35px;
+
+}
+
+.offer div p{
+     font-size: x-small;
+}
+
+.offer h3{
+     font-weight: lighter;
+}
+.offer img{
+     width: 300px;
+}
+
+.offer button{
+     background-color: black;
+     color: white;
+}
+
+.offer span {
+     font-size: xx-large;
+     font-weight: 700;
+}
+
+.lookBook{
+     text-align: center;
+     margin-bottom: 50px;
+}
+
+.lookBook hr{
+     width: 15px;
+     height: 2px;
+     background-color: black;
+
+}
+
+.photogrid img{
+     width: 180px;
+     margin: 5px;
+     
+}
+
+.photogrid{
+     height: 415px;
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin: 0 auto;
+}
