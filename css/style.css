@@ -19,7 +19,7 @@
 
 a{
      text-decoration: none;
-     color: black;
+     color: inherit;
 }
 /******************************************
 /* BASE STYLES
@@ -188,10 +188,11 @@ header h3{
 .highlight button{
      margin-top: 30px;
      background-color: black;
-     color: white;
     
 }
-
+.highlight a{
+     color: white;
+}
 .staff{
      display: flex;
      justify-content: space-around;
