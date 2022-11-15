@@ -265,11 +265,6 @@ header h3{
      color: white;
 }
 
-/* .offer span {
-     font-size: xx-large;
-     font-weight: 700;
-} */
-
 .lookBook{
      text-align: center;
      margin-bottom: 50px;
@@ -282,18 +277,17 @@ header h3{
 
 }
 
-.photogrid img{
+/* .photogrid img{
      width: 180px;
      margin: 5px;
      
-}
+} */
 
 .photogrid{
-     height: 415px;
+     height: 500px;
      width: 500px;
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
      flex-wrap: wrap;
      margin: 0 auto;
 }
