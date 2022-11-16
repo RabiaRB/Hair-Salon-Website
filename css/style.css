@@ -266,8 +266,11 @@ header h3{
 }
 
 .lookBook{
-     text-align: center;
      margin-bottom: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
 }
 
 .lookBook hr{
@@ -277,17 +280,16 @@ header h3{
 
 }
 
-/* .photogrid img{
-     width: 180px;
-     margin: 5px;
-     
-} */
-
 .photogrid{
-     height: 500px;
-     width: 500px;
+     background-color: black;
+     height: 403px;
+     width: 600px;
      display: flex;
      flex-direction: column;
      flex-wrap: wrap;
-     margin: 0 auto;
+     margin: 0 auto
+}
+
+.look{
+     width:200px;
 }
