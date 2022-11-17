@@ -27,6 +27,7 @@ a{
 
 body {
      font-family: 'Playfair Display', serif;
+     /* overflow-x: hidden; */
      
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .percentage-style {
-     font-size: 30px;
+     font-size: 2.5rem;
      font-weight: 700;
 }
 /******************************************
@@ -57,37 +58,42 @@ nav {
      height: 60px;
 }
 
+.site-logo{
+     width:80px;
+}
 .navContainer {
-     display: flex;
-     justify-content: center;
+     width: 100%;
+     display: flex; 
+     justify-content: space-between;
      align-items: center;
      font-size: small;
      padding: 0 20px;
 }
 
-.navContainer>img {
+ /* .navContainer>img {
      flex-basis: 1;
      height: 35px;
-}
+} */
 
 
-ul {
+.nav-links{
+     width: 95%;
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: center;
-     flex-basis: 8;
-}
+     /* flex-basis: 8; */
 
-li {
+}
+nav li {
      list-style: none;
-     padding: 15px;
+     /* padding: 15px; */
 }
 
 
 header {
 
      background-image: url(../images/header.png);
-     width: 100%;
+     width: 100vw;
      background-repeat: no-repeat;
      background-size: contain;
      color: white;
@@ -96,18 +102,18 @@ header {
 }
 
 .title {
-     width: 320px;
+     width: 40%;
      margin: 50px;
 }
 
-header h1{
+.title h1{
      letter-spacing: 8px;
      font-weight: lighter;
-     font-size: 50px;
+     font-size: 2.5rem;
 }
 
-header h3{
-     font-size: small;
+.title h3{
+     font-size: 0.8rem;
      letter-spacing: 5px;
      line-height: 1.5;
 }
@@ -128,11 +134,11 @@ header h3{
 
 
 .voucher p {
-     font-size: x-small;
+     font-size: 0.5rem;
 }
 
 .voucher p:first-child {
-     border-left: solid 3px;
+     border-left: solid black 3px;
      margin-top: 0;
 }
 .voucher-btn{
@@ -292,4 +298,41 @@ header h3{
 
 .look{
      width:200px;
+}
+
+
+/* @media screen and (max-width:600px){
+     /* header{
+          background-size: 5% 50%;
+     } */
+     
+
+
+/* Add your existing CSS styles here */
+
+.hamburger-menu {
+     display: none;
+     cursor: pointer;
+}
+
+.bar {
+     width: 25px;
+     height: 3px;
+     background-color: #333;
+     margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+     .nav-links {
+          display: none;
+     }
+
+     .hamburger-menu {
+          display: block;
+     }
+
+     .nav-links.active {
+          display: flex;
+          flex-direction: column;
+     }
 }

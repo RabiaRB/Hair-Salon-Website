@@ -3,9 +3,10 @@
 	<head>
     	<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 		<title>Hair Salon</title>
 
@@ -18,12 +19,34 @@
 		<script src="https://kit.fontawesome.com/8ed8e25ee9.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-
-		<nav>
-			<div class="navContainer uppercase">
-				<img src="./images/logo.png" alt="logo">
-
-				<ul class="uppercase">
+			<nav class="navContainer uppercase">
+				<div class="logo">
+					<a href="#">
+						<img src="./images/L & L.png" alt="logo" class="site-logo">
+					</a>
+				</div>
+				<div class="hamburger-menu">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="staff.html">Artists</a></li>
+					<li><a href="looks.html">Lookbook</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="booking.html">- BOOK ONLINE</a></li>
+				</ul>
+			</nav>
+		<!-- <nav>
+				<ul class="navContainer uppercase">
+					<li>
+						<a href="about.html">
+							<img src="./images/L & L.png" alt="logo" class="site-logo">
+						</a>
+					</li>
 					<li>
 						<a href="index.html">
 							Home
@@ -57,10 +80,7 @@
 					<li>
 						<a href="contact.html">
 							Contact
-							<span class="fa-stack">
-								<i class="fa-solid fa-square fa-stack-2x"></i>
-								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-							</span>
+							
 						</a>
 					</li>
 
@@ -76,13 +96,17 @@
 
 						</a>
 					</li>
+					<li>
+						<a href="booking.html">
+							- BOOK ONLINE
+						</a>
+					</li>
 				</ul>
 
-				<a href="booking.html">-  BOOK ONLINE</a>
+			
 
-			</div>
 
-		</nav>
+		</nav> -->
 
 		<header>
 			<div class="title uppercase">
@@ -197,6 +221,13 @@
 
 
 		</section>
+
+		<footer>
+			<span class="fa-stack">
+				<i class="fa-solid fa-square fa-stack-2x"></i>
+				<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+			</span>
+		</footer>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
