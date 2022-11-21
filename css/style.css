@@ -199,7 +199,6 @@ header {
 }
 
 .staffCard{
-     flex-basis: 1;
      position: relative;
      width: 25%;
 }
@@ -216,14 +215,14 @@ header {
      justify-content: flex-start;
      align-items: center;
      color: white;
-     width: 120px;
+     width: 100px;
      height: 60px;
-     padding: 5px 25px;
+     padding: 5px;
      font-size: xx-small;
      font-weight: bolder;
      position: absolute;
-     top: 200px;
-     left: 20px;
+     top: 80%;
+     left: 20%;
      text-align: center;
 }
 
@@ -386,7 +385,7 @@ header {
           width: 50px;
      }
      .services section{
-          margin: 0 10px;
+          margin: 0;
           text-align: justify;
           width: 70%;
      }
@@ -403,31 +402,40 @@ header {
           flex-direction: column;
           padding: 20px;
           width: 100%;
+          position: relative;
+          height: 450px;
+          justify-content: flex-end;
      }
 
      .highlight-text{
-           width: 100%;
+          width: 100%;
           text-align: center;
      }
 
      .highlight-image{
-          /* transform: rotate(90deg);
-          width: 50%;
-          height: 600px; */
+          position: absolute;
+          /* opacity: 40%; */
+          transform: rotate(90deg);
+          width: 45%;
+          height: 100vw;
           margin: 0; 
+          top: -30%;
+          left: 27%;
      }
      
      .staff{
-          width: 100%;
           padding: 30px 10px;
      }
 
      .staffCard{
           width: 30%;
      }
-      .staffImg {
+      /* .staffImg {
           width: 100%;
           height: auto;
+     } */
+     .staffInfo{
+          left: 15%;
      }
-   
+     
 }
