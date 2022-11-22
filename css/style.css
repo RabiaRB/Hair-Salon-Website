@@ -247,7 +247,7 @@ header {
      width: 100%;
      justify-content: center;
      background-color: rgb(244	244	246) ;
-     margin: 40px 10px;
+     margin: 40px 0;
      /* margin: 150px 30px 80px 30px; */
      
 }
@@ -394,7 +394,7 @@ header {
           padding: 20px;
           width: 100%;
           position: relative;
-          height: 520px;
+          height: 450px;
           justify-content: flex-end;
      }
 
@@ -409,7 +409,7 @@ header {
           width: 45%;
           height: 100vw;
           margin: 0; 
-          top: -25%;
+          top: -100px;
           left: 27%;
      }
      
@@ -424,5 +424,21 @@ header {
      .staffInfo{
           left: 15%;
      }
-     
+     .offer{
+          font-size: 1rem;
+     }
+
+     .offer div {
+          padding: 10px;
+}
+
+@media screen and (min-width: 460px) and (max-width: 610px){
+
+     .highlight{
+          height: 500px;
+     }
+     .highlight-image{
+          top: -150px;
+     }
+
 }
