@@ -70,6 +70,17 @@ nav {
      padding: 0 20px;
 }
 
+.hamburger-menu {
+     display: none;
+     cursor: pointer;
+}
+
+.bar {
+     width: 25px;
+     height: 3px;
+     background-color: #333;
+     margin: 5px 0;
+}
 
 .nav-links{
      width: 100%;
@@ -294,26 +305,6 @@ header {
 }
 
 
-/* @media screen and (max-width:600px){
-     /* header{
-          background-size: 5% 50%;
-     } */
-     
-
-
-/* Add your existing CSS styles here */
-
-.hamburger-menu {
-     display: none;
-     cursor: pointer;
-}
-
-.bar {
-     width: 25px;
-     height: 3px;
-     background-color: #333;
-     margin: 5px 0;
-}
 
 @media screen and (max-width: 610px) {
      .nav-links {
@@ -414,7 +405,6 @@ header {
 
      .highlight-image{
           position: absolute;
-          /* opacity: 40%; */
           transform: rotate(90deg);
           width: 45%;
           height: 100vw;
@@ -430,10 +420,7 @@ header {
      .staffCard{
           width: 30%;
      }
-      /* .staffImg {
-          width: 100%;
-          height: auto;
-     } */
+
      .staffInfo{
           left: 15%;
      }
