@@ -167,9 +167,9 @@ header {
 
 .highlight{
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
      background-color: rgb(244,244,246);
-     padding: 70px 120px;
+     padding: 70px;
      font-size: small;
 }
 
@@ -315,7 +315,7 @@ header {
      margin: 5px 0;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 610px) {
      .nav-links {
           display: none;
      }
@@ -403,7 +403,7 @@ header {
           padding: 20px;
           width: 100%;
           position: relative;
-          height: 450px;
+          height: 520px;
           justify-content: flex-end;
      }
 
@@ -419,7 +419,7 @@ header {
           width: 45%;
           height: 100vw;
           margin: 0; 
-          top: -30%;
+          top: -25%;
           left: 27%;
      }
      
