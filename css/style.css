@@ -248,7 +248,6 @@ header {
      justify-content: center;
      background-color: rgb(244	244	246) ;
      margin: 40px 0;
-     /* margin: 150px 30px 80px 30px; */
      
 }
 
@@ -429,13 +428,19 @@ header {
      }
 
      .offer div {
-          padding: 10px;
+          padding: 20px;
+          line-height: 25px;  
+     }
+     .offer img {
+          width: 50%;
+     }
 }
 
 @media screen and (min-width: 460px) and (max-width: 610px){
 
      .highlight{
           height: 500px;
+          
      }
      .highlight-image{
           top: -150px;
