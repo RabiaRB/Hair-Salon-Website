@@ -434,6 +434,19 @@ header {
      .offer img {
           width: 50%;
      }
+     .look{
+          width: 250px;
+     }
+     .photogrid{
+          width: fit-content;
+          height: fit-content;
+     }
+
+     .lookMore{
+          order: 6;
+     }
+
+    
 }
 
 @media screen and (min-width: 460px) and (max-width: 610px){
@@ -445,5 +458,15 @@ header {
      .highlight-image{
           top: -150px;
      }
-
+/* 
+     .lookBook {
+           position: relative;
+     } */
+     
+     .photogrid {
+          transform: scale(0.8, 0.8);
+          justify-self: center;
+          /* left: -10px;
+          top: 45px; */
+     }
 }
