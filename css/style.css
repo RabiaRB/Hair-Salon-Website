@@ -435,17 +435,21 @@ header {
           width: 50%;
      }
      .look{
-          width: 250px;
+          width: 80%;
+          align-self: center;
      }
      .photogrid{
           width: fit-content;
           height: fit-content;
+          background-color: #fff;
      }
 
      .lookMore{
           order: 6;
+          width: 100%;
+          text-align: center;
+      
      }
-
     
 }
 
@@ -458,15 +462,5 @@ header {
      .highlight-image{
           top: -150px;
      }
-/* 
-     .lookBook {
-           position: relative;
-     } */
-     
-     .photogrid {
-          transform: scale(0.8, 0.8);
-          justify-self: center;
-          /* left: -10px;
-          top: 45px; */
-     }
+
 }
