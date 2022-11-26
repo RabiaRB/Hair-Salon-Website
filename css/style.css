@@ -48,6 +48,10 @@ body {
      font-size: 2.5rem;
      font-weight: 700;
 }
+
+.grey-background{
+     background-color: rgb(244, 244, 246);
+}
 /******************************************
 /* Header
 /*******************************************/
@@ -56,6 +60,7 @@ nav {
      display: flex;
      justify-content: center;
      height: 60px;
+     border-bottom: 1px solid grey;
 }
 
 .site-logo{
@@ -94,8 +99,7 @@ nav li {
 }
 
 
-header {
-
+.main-header {
      background-image: url(../images/header.png);
      width: 100vw;
      background-repeat: no-repeat;
@@ -246,7 +250,6 @@ header {
      display: flex;
      width: 100%;
      justify-content: center;
-     background-color: rgb(244	244	246) ;
      margin: 40px 0;
      
 }
@@ -313,11 +316,6 @@ header {
      .hamburger-menu {
           display: block;
      }
-     /* nav.extended{
-          height: 200px;
-          align-items: flex-start;
-          padding-top: 10px;
-     } */
      .nav-links.active {
           width: 40%;
           display: flex;
