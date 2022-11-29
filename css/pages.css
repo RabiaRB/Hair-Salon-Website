@@ -95,9 +95,16 @@
 
 @media screen and (max-width: 610px) {
 
-    /* .about-header h1 {
-        left: 35%;
+    .image-section{
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 0;
+        justify-content: center;
     }
-} */
+
+
+    .image-section-text{
+        margin: 20px;
+    }
 
 }
