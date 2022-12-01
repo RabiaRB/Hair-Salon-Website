@@ -101,29 +101,35 @@
     position: absolute;
     width: 100%;
     z-index: -1;
-    opacity: 40%;
-    margin-top: 150px;
-}
-
-.vector-section-text{
-    position: absolute;
-    width: 40%;
-    text-align: center;
+    opacity: 30%;
     margin-top: 250px;
 
 }
+
+.vector-section-text{
+    width: 50%;
+    text-align: center;
+    margin: 100px;
+
+}
+
+/* .final-section{
+    position: absolute;
+    top: 100%;
+} */
 @media screen and (max-width: 610px) {
 
     .image-section{
         flex-direction: column;
         margin-top: 30px;
-        padding: 0;
         justify-content: center;
     }
 
-
-    .image-section-text{
-        margin: 20px;
+    .image-section-text h2{
+        text-align: center;
+        margin-top: 20px;
     }
+
+
 
 }
