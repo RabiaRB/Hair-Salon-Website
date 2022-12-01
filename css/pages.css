@@ -120,7 +120,22 @@
         text-align: center;
         margin-top: 20px;
     }
-
+    .vector-section-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+    }
+        
+    .vector-section {
+        background-color: rgb(244, 244, 246);
+    }
+        
+    .about-vector {
+        top: 300px;
+    }
 
     
 }
