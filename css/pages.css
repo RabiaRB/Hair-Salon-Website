@@ -1,4 +1,4 @@
-.about-header {
+.page-header {
     width: fit-content;
     height: fit-content;
     position: relative;
@@ -24,7 +24,7 @@
     height: auto;
 }
 
-.about-header h1{
+.page-header h1{
         -webkit-text-stroke: 1px rgb(68, 67, 67);
         -webkit-text-fill-color: white;
         position: absolute;
@@ -35,7 +35,7 @@
 
    
 }
-.about-section{
+.pages-section{
         padding: 30px 60px;
         display: flex;
         justify-content: center;
@@ -48,7 +48,7 @@
 .about-section h2{
     margin-top: 0;
 }
-.about-section-intro{
+.section-intro{
     font-size: 0.9rem;
     color: grey;
 }
@@ -103,11 +103,27 @@
 .vector-section-text{
     width: 45%;
     text-align: center;
-
-
 }
 
+.services-list-container{
+    padding: 20px 30px;
+    position: relative;
+    background: linear-gradient(45deg, #8c8c8c, #40bcff, #6f148d);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(110, 107, 107, 0.5));
+}
 
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.services-list > li{
+    padding: 20px;
+    list-style: none;
+}
 @media screen and (max-width: 610px) {
 
     .image-section{
@@ -135,6 +151,15 @@
         
     .about-vector {
         top: 300px;
+    }
+
+    .services-list {
+       flex-direction: column;
+       padding: 0 30px;
+       align-items: flex-start;
+       font-size: 0.9rem;
+
+       
     }
 
     
