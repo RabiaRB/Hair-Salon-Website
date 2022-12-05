@@ -116,13 +116,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     color: white;
 }
 
 .services-list > li{
     padding: 20px;
     list-style: none;
+    width: 30%;
+    min-width: 300px;
 }
 @media screen and (max-width: 610px) {
 
@@ -154,12 +155,7 @@
     }
 
     .services-list {
-       flex-direction: column;
-       padding: 0 30px;
-       align-items: flex-start;
        font-size: 0.9rem;
-
-       
     }
 
     
