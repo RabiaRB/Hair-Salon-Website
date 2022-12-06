@@ -125,6 +125,11 @@
     width: 30%;
     min-width: 300px;
 }
+
+.enclosing-services{
+        font-size: 0.9rem;
+        color: grey;
+}
 @media screen and (max-width: 610px) {
 
     .image-section{
