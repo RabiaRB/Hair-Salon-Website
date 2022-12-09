@@ -6,6 +6,7 @@
 
 .image-container {
     position: relative;
+    width: 100%;
 }
 
 .image-container::before {
@@ -174,7 +175,42 @@
     line-height: 1.5;
 }
 
-/* Add additional styling as needed */
+.booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="date"],
+.booking-form input[type="time"],
+.booking-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.booking-form input[type="submit"] {
+    background-color: #ff3366;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: #e6004c;
+}
+
 
 @media screen and (max-width: 630px) {
 
@@ -221,5 +257,17 @@
               margin: 0 auto 20px;
           }
 
+          .booking-form {
+              padding: 10px;
+          }
     
-}
+          .booking-form input[type="text"],
+          .booking-form input[type="email"],
+          .booking-form input[type="date"],
+          .booking-form input[type="time"],
+          .booking-form input[type="submit"] {
+              font-size: 14px;
+          }
+          }
+
+    
