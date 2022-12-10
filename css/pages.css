@@ -130,7 +130,47 @@
         font-size: 0.9rem;
         color: grey;
 }
-@media screen and (max-width: 610px) {
+
+/* Add your existing CSS styles here */
+
+.artists-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.artist-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.artist-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.artist-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.artist-info p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Add additional styling as needed */
+
+@media screen and (max-width: 630px) {
 
     .image-section{
         flex-direction: column;
@@ -162,6 +202,18 @@
     .services-list {
        font-size: 0.9rem;
     }
+          .artists-container {
+              padding: 10px;
+          }
+    
+          .artist {
+              flex-direction: column;
+              text-align: center;
+          }
+    
+          .artist-image {
+              margin: 0 auto 20px;
+          }
 
     
 }
