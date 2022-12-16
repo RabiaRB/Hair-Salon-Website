@@ -306,6 +306,33 @@ nav li {
      width:200px;
 }
 
+footer {
+     background-color: #f7f7f7;
+     padding: 20px;
+     text-align: center;
+}
+
+.footer-container {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.social-media {
+     margin-bottom: 15px;
+}
+
+.social-link {
+     display: inline-block;
+     margin-right: 10px;
+     font-size: 20px;
+     color: #555555;
+}
+
+.footer-text {
+     color: #555555;
+     font-size: 14px;
+}
+
 
 
 @media screen and (max-width: 610px) {
@@ -450,6 +477,7 @@ nav li {
      }
     
 }
+
 
 @media screen and (min-width: 460px) and (max-width: 610px){
 
