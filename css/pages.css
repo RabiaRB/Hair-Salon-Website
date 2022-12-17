@@ -107,6 +107,10 @@
     text-align: center;
 }
 
+.final-section{
+        padding-bottom: 80px;
+}
+
 .services-list-container{
     padding: 20px 30px;
     position: relative;
