@@ -107,9 +107,6 @@
     text-align: center;
 }
 
-.final-section{
-        padding-bottom: 80px;
-}
 
 .services-list-container{
     padding: 20px 30px;
@@ -186,6 +183,7 @@
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .form label {
@@ -244,7 +242,7 @@
    
 } 
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 610px) {
 
     .page-header h1 {
             top: -20px;
@@ -276,6 +274,8 @@
     .about-vector {
         top: 300px;
     }
+
+
 
     .services-list {
        font-size: 0.9rem;
