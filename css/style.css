@@ -39,9 +39,10 @@ body {
 header {
 
      background-image: url(../images/header.png);
+     width: 100%;
      background-repeat: no-repeat;
      background-size: cover;
-     height: 30%;
+     height: auto;
      color: white;
      padding: 10%;
 }
@@ -76,6 +77,7 @@ nav {
 
 .navContainer {
      display: flex;
+     justify-content: center;
      align-items: center;
      font-size: small;
      height: 60px;
@@ -112,8 +114,10 @@ li {
 
 
 .voucher {
-     background-color: black;
-     padding-top: 15px;
+     background-color: rgb(148, 146, 146);
+     border-radius: 5%;
+     color: black;
+     padding-top: 10px;
      margin-top: 60px;
      width: 180px;
      line-height: 200%;
