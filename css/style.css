@@ -17,6 +17,10 @@
 	clear: both;
 }
 
+a{
+     text-decoration: none;
+     color: black;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -31,6 +35,8 @@ body {
      font-size: xx-small;
      font-weight: lighter;
      border-radius: 8px;
+     cursor: pointer;
+     border: none;
 }
 
 .uppercase {
@@ -74,10 +80,6 @@ li {
 }
 
 
-.navContainer a {
-     text-decoration: none;
-     color: black;
-}
 header {
 
      background-image: url(../images/header.png);
@@ -134,6 +136,10 @@ header h3{
 }
 .voucher-btn{
      background-color: black;
+   
+}
+
+.voucher-btn a{
      color: white;
 }
 
@@ -162,15 +168,23 @@ header h3{
 .highlight{
      display: flex;
      background-color: rgb(244	244	246);
-     padding: 80px;
+     padding: 70px 120px;
      font-size: small;
 }
-.highlight img{
+
+.highlight-text{
+     width: 400px;
+     line-height: 1.5;
+     text-align: justify;
+}
+
+.highlight-image{
      width: 200px;
-     margin-left: 40px;
+     margin-left: 120px;
 }
 
 .highlight button{
+     margin-top: 30px;
      background-color: black;
      color: white;
     
