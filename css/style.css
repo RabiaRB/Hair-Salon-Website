@@ -27,7 +27,7 @@ a{
 
 body {
      font-family: 'Playfair Display', serif;
-     /* overflow-x: hidden; */
+     overflow-x: hidden;
      
 }
 
@@ -70,23 +70,16 @@ nav {
      padding: 0 20px;
 }
 
- /* .navContainer>img {
-     flex-basis: 1;
-     height: 35px;
-} */
-
 
 .nav-links{
-     width: 95%;
+     width: 100%;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: center;
-     /* flex-basis: 8; */
 
 }
 nav li {
      list-style: none;
-     /* padding: 15px; */
 }
 
 
@@ -95,18 +88,20 @@ header {
      background-image: url(../images/header.png);
      width: 100vw;
      background-repeat: no-repeat;
-     background-size: contain;
+     background-size: 100% auto;
      color: white;
      display: flex;
      flex-direction: column;
+     position: relative;
 }
 
 .title {
-     width: 40%;
+     width: 80%;
      margin: 50px;
 }
 
 .title h1{
+     width: 45%;
      letter-spacing: 8px;
      font-weight: lighter;
      font-size: 2.5rem;
@@ -124,11 +119,11 @@ header {
      border-radius: 8%;
      color: black;
      padding: 15px 0;
-     margin-top: 20px;
-     width: 180px;
+     width: 140px;
      line-height: 150%;
-     margin-right: 70px;
-     align-self: flex-end;
+     position: absolute;
+     top: 160px;
+     right: 10px;
 
 }
 
@@ -143,12 +138,10 @@ header {
 }
 .voucher-btn{
      background-color: black;
-   
+     color: #fff;
 }
 
-.voucher-btn a{
-     color: white;
-}
+
 
 /******************************************
 /* Sections
@@ -175,7 +168,7 @@ header {
 .highlight{
      display: flex;
      justify-content: center;
-     background-color: rgb(244	244	246);
+     background-color: rgb(244,244,246);
      padding: 70px 120px;
      font-size: small;
 }
@@ -194,25 +187,26 @@ header {
 .highlight button{
      margin-top: 30px;
      background-color: black;
+     color: white;
     
 }
-.highlight a{
-     color: white;
-}
+
 .staff{
      display: flex;
      justify-content: space-around;
-     padding: 50px 100px;
+     padding: 50px;
+     width: 100%;
 }
 
 .staffCard{
      flex-basis: 1;
      position: relative;
+     width: 25%;
 }
 
-.staffCard img{
-     width: 160px;
-     height: 240px;
+.staffImg{
+     width: 100%;
+     height: auto;
 }
 
 .staffInfo{
@@ -322,7 +316,7 @@ header {
      margin: 5px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
      .nav-links {
           display: none;
      }
@@ -330,9 +324,110 @@ header {
      .hamburger-menu {
           display: block;
      }
-
+     /* nav.extended{
+          height: 200px;
+          align-items: flex-start;
+          padding-top: 10px;
+     } */
      .nav-links.active {
+          width: 40%;
           display: flex;
           flex-direction: column;
+          justify-content: center;
+          margin: 10px 0 0 0;
+          padding:0;
+          align-items: center;
+          position: absolute;
+          top: 50px;
+          right: 0px;
+          z-index: 1;
+          background-color: rgb(55, 53, 53);
+          color: #fff;
+
      }
+     .nav-links.active li{
+          padding: 12px 4px;
+          width: 100%;
+          border: 0.5px solid rgb(129, 124, 124);
+          text-align: center;
+     }
+
+     .title{
+          width: 80%;
+     }
+     .title h1{
+          width: 60%;
+          font-size: 1.5rem;
+          margin-top: 0;
+     }
+
+     .title h3{
+          font-size: 0.5rem;
+     }
+
+     .btn{
+          padding: 5px 10px;
+     }
+
+     .voucher{
+          font-size: 0.5rem;
+     }
+
+     .percentage-style {
+          font-size: 1.5rem;
+          font-weight: 700;
+     }
+
+     .services{
+          margin: 30px 20px;
+          flex-direction: column;
+     }
+     .services img{
+          width: 50px;
+     }
+     .services section{
+          margin: 0 10px;
+          text-align: justify;
+          width: 70%;
+     }
+
+     .right-aligned{
+          align-self:flex-end;
+     }
+
+     .right-aligned-title{
+          text-align: end;
+     }
+
+     .highlight{
+          flex-direction: column;
+          padding: 20px;
+          width: 100%;
+     }
+
+     .highlight-text{
+           width: 100%;
+          text-align: center;
+     }
+
+     .highlight-image{
+          /* transform: rotate(90deg);
+          width: 50%;
+          height: 600px; */
+          margin: 0; 
+     }
+     
+     .staff{
+          width: 100%;
+          padding: 30px 10px;
+     }
+
+     .staffCard{
+          width: 30%;
+     }
+      .staffImg {
+          width: 100%;
+          height: auto;
+     }
+   
 }
