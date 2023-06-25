@@ -2,12 +2,6 @@
     width: fit-content;
     height: fit-content;
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    -webkit-text-stroke: 1px grey;
-    -webkit-text-fill-color: white; */
-        
 }
 
 .image-container {
@@ -101,22 +95,19 @@
     position: absolute;
     width: 100%;
     z-index: -1;
-    opacity: 30%;
-    margin-top: 250px;
+    opacity: 20%;
+    margin-top: 50px;
 
 }
 
 .vector-section-text{
-    width: 50%;
+    width: 45%;
     text-align: center;
-    margin: 100px;
+
 
 }
 
-/* .final-section{
-    position: absolute;
-    top: 100%;
-} */
+
 @media screen and (max-width: 610px) {
 
     .image-section{
@@ -131,5 +122,5 @@
     }
 
 
-
+    
 }
