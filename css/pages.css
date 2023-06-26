@@ -176,7 +176,7 @@
 }
 
 .booking-form {
-    max-width: 400px;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
@@ -209,7 +209,9 @@
 
 .booking-form input[type="submit"]:hover {
     background-color: #e6004c;
+    
 }
+
 
 
 @media screen and (max-width: 630px) {
